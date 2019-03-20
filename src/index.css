@@ -1,4 +1,5 @@
 html {
     background: url('./assets/sunny.png');
     background-size: cover;
+    min-height: 100%;
 }
