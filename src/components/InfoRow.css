@@ -16,3 +16,12 @@ div .info-value {
     border-top-right-radius: 4pt;
     border-bottom-right-radius: 4pt;
 }
+
+.fade-appear {
+    opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 600ms linear;
+}
