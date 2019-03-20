@@ -1,4 +1,6 @@
 # Check weather
+![weather.gif](https://bojangabric.com/images/weather/weather-full.gif)
+
 React app made for checking the weather using the Weather API from openweathermap.
 
 ## Usage
