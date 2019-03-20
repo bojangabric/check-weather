@@ -1,7 +1,10 @@
 .search-bar p {
     font-size: 50px;
     margin-bottom: 20px;
-    color: lightblue;
+    color: #ffa500;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+
 }
 
 .search-bar .city {
