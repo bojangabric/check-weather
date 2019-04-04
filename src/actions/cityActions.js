@@ -1,8 +1,7 @@
 import { GET_CITY_INFO } from "./types";
-require('dotenv').config({ path: '../../.env' });
   
 export const getCityInfo = (city_name) => dispatch => {
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city_name}&APPID=${process.env.APPID}&units=metric`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city_name}&APPID=${process.env.REACT_APP_APPID}&units=metric`)
     .then(res => res.json())
     .then(city_info =>
       dispatch({
