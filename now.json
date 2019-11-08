@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "check-weather",
+    "build": {
+        "env": {
+            "REACT_APP_APPID": "@react_app_appid"
+        }
+    }
+}
